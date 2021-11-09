@@ -1,0 +1,32 @@
+{
+  "api/JMRSDKExampleSnippets.DestroyHandler.html": {
+    "href": "api/JMRSDKExampleSnippets.DestroyHandler.html",
+    "title": "Class DestroyHandler | JMR Samples",
+    "keywords": "Class DestroyHandler Handles lifetime of gameobject. Inheritance Object DestroyHandler Namespace : JMRSDKExampleSnippets Assembly : cs.temp.dll.dll Syntax public class DestroyHandler : MonoBehaviour Fields destroyAfterCollideTime destroy gameobject after duration in event of collision. Declaration public float destroyAfterCollideTime Field Value Type Description Single lifeTime lifetime of the particle after which gameobject will be destroyed. Declaration public float lifeTime Field Value Type Description Single"
+  },
+  "api/JMRSDKExampleSnippets.FnButtons.html": {
+    "href": "api/JMRSDKExampleSnippets.FnButtons.html",
+    "title": "Class FnButtons | JMR Samples",
+    "keywords": "Class FnButtons calls function actions when the specific button is pressed; Inheritance Object FnButtons Implements IFn1Handler IFn2Handler Namespace : JMRSDKExampleSnippets Assembly : cs.temp.dll.dll Syntax public class FnButtons : MonoBehaviour, IFn1Handler, IFn2Handler Fields onFn1Action Unity event when Fn1 button is pressed Declaration public UnityEvent onFn1Action Field Value Type Description UnityEvent onFn2Action Unity event when Fn2 button is pressed Declaration public UnityEvent onFn2Action Field Value Type Description UnityEvent Methods OnFn1Action() Called on Fn1 button, when touchpad is pressed once. Declaration public void OnFn1Action() OnFn2Action() Called on Fn2 button, when touchpad is pressed twice. Declaration public void OnFn2Action() Start() Added Global Listener in Start method. Declaration public void Start() Implements IFn1Handler IFn2Handler"
+  },
+  "api/JMRSDKExampleSnippets.html": {
+    "href": "api/JMRSDKExampleSnippets.html",
+    "title": "Namespace JMRSDKExampleSnippets | JMR Samples",
+    "keywords": "Namespace JMRSDKExampleSnippets Classes DestroyHandler Handles lifetime of gameobject. FnButtons calls function actions when the specific button is pressed; RPGActions Actions like Grenade Throw."
+  },
+  "api/JMRSDKExampleSnippets.RPGActions.html": {
+    "href": "api/JMRSDKExampleSnippets.RPGActions.html",
+    "title": "Class RPGActions | JMR Samples",
+    "keywords": "Class RPGActions Actions like Grenade Throw. Inheritance Object RPGActions Namespace : JMRSDKExampleSnippets Assembly : cs.temp.dll.dll Syntax public class RPGActions : MonoBehaviour Fields throwForce force with which object will be thrown. Declaration public float throwForce Field Value Type Description Single Methods ThrowBall(GameObject) Instantiate and throw ball prefab from laser pointer origin in the direction of the laser pointer. Declaration public void ThrowBall(GameObject ballToThrow) Parameters Type Name Description GameObject ballToThrow Gameobject Prefab to throw Remarks Needs to be accessed through UnityEvents."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "ExampleSnippets-FnFunctions | JMR Samples",
+    "keywords": "ExampleSnippets-FnFunctions Example of Fn1 and Fn2 Actions"
+  },
+  "manual/JMRSamples.html": {
+    "href": "manual/JMRSamples.html",
+    "title": "Sample | JMR Samples",
+    "keywords": "Sample"
+  }
+}
