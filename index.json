@@ -21,8 +21,8 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "ExampleSnippets-FnFunctions | JMR Samples",
-    "keywords": "ExampleSnippets-FnFunctions Example of Fn1 and Fn2 Actions"
+    "title": "FnFunctions | JMR Samples",
+    "keywords": "FnFunctions Example of Fn1 and Fn2 button implementation of JMRSDK Scripts FnButtons.cs Shows example of accessing callbacks called during touchpad click (Fn1) and touchpad double click (Fn2) button press. Interfaces to implement Fn1 and Fn2 funtionalities cs public class ButtonManager : MonoBehaviour, IBackHandler, IHomeHandler, IMenuHandler How to use? Download and unzip this project. Open the project using Unity Hub. Download and import the latest version of JMRSDK package. Open and play the FnButtons scene from Assets/Scenes folder."
   },
   "manual/JMRSamples.html": {
     "href": "manual/JMRSamples.html",
